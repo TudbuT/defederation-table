@@ -83,6 +83,12 @@ fn main() {
     td {
         cursor: pointer;
     }
+    td:hover {
+        background-color: #3c3f45;
+    }
+    td:active {
+        background-color: #4c4f55;
+    }
 </style>
 
 <div class=a><table>
