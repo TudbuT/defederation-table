@@ -70,6 +70,7 @@ fn main() {
         padding: 10px;
         border-radius: 10px;
         background-color: #2c2f35;
+        overflow-x: scroll;
     }
     table, th, td {
         border: 1px solid #789;
