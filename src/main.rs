@@ -82,6 +82,7 @@ fn main() {
     }
     td {
         cursor: pointer;
+        user-select: none;
     }
     td:hover {
         background-color: #3c3f45;
