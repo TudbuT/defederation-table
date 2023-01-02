@@ -1,7 +1,9 @@
+use core::panic;
 use std::{env::args, fs};
 
 use microasync::sync;
 use microasync_util::{get_current_runtime, QueuedRuntime};
+use readformat::readf;
 
 #[derive(Debug)]
 #[allow(unused)]
@@ -41,17 +43,29 @@ impl From<&str> for BlockKind {
 struct InstanceBlock {
     url: String,
     reason: String,
+    comment: String,
     kind: BlockKind,
 }
 
 impl From<&str> for InstanceBlock {
     fn from(value: &str) -> Self {
-        let mut value = value.split("||");
-        Self {
-            url: value.next().unwrap().into(),
-            reason: value.next().unwrap().into(),
-            kind: value.next().unwrap().into(),
+        if let Some(value) = readf("{}||{}||{}||{}", value) {
+            return Self {
+                url: value[0].clone(),
+                reason: value[1].clone(),
+                comment: value[2].clone(),
+                kind: value[3].as_str().into(),
+            };
         }
+        if let Some(value) = readf("{}||{}||{}", value) {
+            return Self {
+                url: value[0].clone(),
+                reason: value[1].clone(),
+                comment: "-".into(),
+                kind: value[2].as_str().into(),
+            };
+        }
+        panic!("Invalid format: {value}");
     }
 }
 
@@ -96,6 +110,7 @@ fn main() {
     <tr>
         <th>URL</th>
         <th>Reason</th>
+        <th>Comment</th>
         <th>Type</th>
     </tr>"
     );
@@ -122,7 +137,7 @@ fn main() {
 
 async fn add(block: InstanceBlock) {
     // maybe add dns check here later
-    let (url, reason, kind) = (
+    let (url, reason, comment, kind) = (
         block
             .url
             .replace("<", "&lt;")
@@ -130,6 +145,11 @@ async fn add(block: InstanceBlock) {
             .replace("\"", "&quot;"),
         block
             .reason
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+            .replace("\"", "&quot;"),
+        block
+            .comment
             .replace("<", "&lt;")
             .replace(">", "&gt;")
             .replace("\"", "&quot;"),
@@ -143,11 +163,14 @@ async fn add(block: InstanceBlock) {
         <td onclick=\"navigator.clipboard.writeText('{}');\">{}</td>
         <td onclick=\"navigator.clipboard.writeText('{}');\">{}</td>
         <td onclick=\"navigator.clipboard.writeText('{}');\">{}</td>
+        <td onclick=\"navigator.clipboard.writeText('{}');\">{}</td>
     </tr>",
         url.replace("\\", "\\\\").replace("\'", "\\\'"),
         url,
         reason.replace("\\", "\\\\").replace("\'", "\\\'"),
         reason,
+        comment.replace("\\", "\\\\").replace("\'", "\\\'"),
+        comment,
         kind.replace("\\", "\\\\").replace("\'", "\\\'"),
         kind,
     );

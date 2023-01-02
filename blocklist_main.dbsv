@@ -1,33 +1,31 @@
-*bitcoin*||cryptocurrency is a scam||Silence
-mstdn.jp||very slow moderation||Silence
-*activitypub-proxy||fediblock bypasser||Suspend
-*agenda*||basically every instance that calls itself an agenda or calls something else an agenda is bad||Suspend
-anime.website||heard only bad things, can't check myself because they are down atm, but they definitely seem like a 4chan instance||Suspend
-bae.st||incompatible rules + 4chan things||Suspend
-baraag.net||couldn't check (very bugged), but blocked by lots of good instances, so probably bad||Suspend
-*cum*||99% of domains containing cum are run by 4chan users||Suspend
-eveningzoo.club||no visible rules, widely blocked||Suspend
-feral.cafe||zoophilia supporters||Suspend
-*freespeech*||Free speech extremists are incompatible with our rules||Suspend
-gab.*||literally the first thing i saw when checking it was openly transphobic||Suspend
-hentai.baby||connected to pedo.school||Suspend
-kiwifarms.cc||couldn't check (down), but blocked VERY widely||Suspend
-lets.saynoto.lgbt||pretty obvious considering the domain name: LGBTphobia||Suspend
-*liberty*||free speech extremists, and lots of other bs||Suspend
-*loli*||Pretty obvious considering the domain name||Suspend
-mastinator.com||a post scraper||Suspend
-mastodon.se||Alt-right admin, free speech extremists||Suspend
-*moe*||99% of these are 4chan instances||Suspend
-nazi.social||I think this one is pretty obvious||Suspend
-nicecrew.digital||no visible rules, widely blocked||Suspend
-pedo.school||Pedo platform||Suspend
-pieville.net||no visible rules, widely blocked||Suspend
-poa.st||"shitposting" - it's 4chan again!||Suspend
-rapefeminists.network||what the fuck||Suspend
-raplst.town||what the fuck||Suspend
-scots.network||anti-lgbtq instance||Suspend
-shitposter.club||lots of slurs, 4chan, homophobia, transphobia, etc||Suspend
-spinster.xyz||extreme feminists ("men bad")||Suspend
-truthsocial.com||we are not interested in trump's misinformation||Suspend
-wolfgirl.bar||their only rule: "Do not use this instance in any way that makes extra work for me."||Suspend
-yggdrasil.social||their rule 1: "No LGBTQ. Period. No homosexuality."||Suspend
+*bitcoin*||Scamming||Most bitcoin instances are full of scams||Silence
+mstdn.jp||Very bad moderation||Silence
+mastinator.com||Post Scraper||Spams instances with requests||Suspend
+feral.cafe||Supporting sexual abuse||Support for zoophilia embedded in the rules||Suspend
+hentai.baby||Association with pedo.school||Suspend
+pedo.school||Supporting sexual abuse||Suspend
+rapefeminists.network||Supporting sexual abuse, hateful content||Suspend
+raplst.town||Supporting sexual abuse||Suspend
+nazi.social||Extreme right-wing content||Suspend
+*activitypub-proxy||Fediblock bypasser||Used to bypass other fediblocks||Suspend
+anime.website||Alt-right, hateful content||Strong association with 4chan culture||Suspend
+bae.st||Rules allow hateful content||Suspend
+baraag.net||No publicly visible rules||Suspend
+*cum*||Undefined||Most instances with "cum" in the name are strongly connected to 4chan culture||Suspend
+eveningzoo.club||No publicly visible rules||Suspend
+*freespeech*||Extremely bad moderation||Suspend
+gab.*||Anti-LGBTQIA+ Community||Suspend
+lets.saynoto.lgbt||Anti-LGBTQIA+ Community||Suspend
+*liberty*||Undefined||Suspend
+*loli*||Association with pedophilia||Suspend
+mastodon.se||Alt-right, hateful content||Suspend
+*moe*||Undefined||Most instances with "moe" in the name are strongly connected to 4chan culture||Suspend
+nicecrew.digital||No publicly visible rules||Suspend
+pieville.net||No publicly visible rules||Suspend
+poa.st||Extremely bad moderation, Anti-LGBTQIA+, hateful content||Suspend
+scots.network||Anti-LGBTQIA+ Community||Suspend
+shitposter.club||Spam, hateful content||Quite connected to 4chan||Suspend
+spinster.xyz||Hateful content||Suspend
+truthsocial.com||Anti-LGBTQIA+ Community, hateful content||Trump's instance - therefore strongly biased||Suspend
+wolfgirl.bar||No publicly visible rules||Suspend
+yggdrasil.social||Anti-LGBTQIA+ Community, hateful content||Their rule 1: No LGBT||Suspend

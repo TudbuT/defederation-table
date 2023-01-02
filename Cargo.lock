@@ -28,6 +28,6 @@ dependencies = [
 
 [[package]]
 name = "readformat"
-version = "0.1.1"
+version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5c022dba0f73722452fd57de22f40fa3d58458cf996f51369aa6755abb250a60"
+checksum = "b03f7fbd470aa8b3ad163c85cce8bccfc11cc9c44ef12da0a4eddd98bd307352"
