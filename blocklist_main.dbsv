@@ -1,4 +1,4 @@
-bitcoin||Scamming||Most bitcoin instances are full of scams||Silence
+*bitcoin*||Scamming||Most bitcoin instances are full of scams||Silence
 mstdn.jp||Very bad moderation||Silence
 mastinator.com||Post Scraper||Spams instances with requests||Suspend
 feral.cafe||Supporting sexual abuse||Support for zoophilia embedded in the rules||Suspend
@@ -8,17 +8,17 @@ freak.university||Supporting sexual abuse||Same owner as pedo.school||Suspend
 rapefeminists.network||Supporting sexual abuse, hateful content||Suspend
 raplst.town||Supporting sexual abuse||Suspend
 nazi.social||Extreme right-wing content||Suspend
-activitypub-proxy||Fediblock bypasser||Used to bypass other fediblocks||Suspend
+*activitypub-proxy*||Fediblock bypasser||Used to bypass other fediblocks||Suspend
 anime.website||Alt-right, hateful content||Strong association with 4chan culture||Suspend
 bae.st||Rules allow hateful content||Suspend
 baraag.net||No publicly visible rules||And an association with mirr0r.city||Suspend
-freecumextremist||Hateful content||Suspend
+freecumextremist*||Hateful content||Suspend
 eveningzoo.club||No publicly visible rules||Suspend
-freespeech||Extremely bad moderation||Suspend
-gab.||Anti-LGBTQIA+ Community||Suspend
+*freespeech*||Extremely bad moderation||Suspend
+gab.*||Anti-LGBTQIA+ Community||Suspend
 lets.saynoto.lgbt||Anti-LGBTQIA+ Community||Suspend
-liberty||Undefined||Suspend
-loli||Association with pedophilia||Suspend
+*liberty*||Undefined||Suspend
+*loli*||Association with pedophilia||Suspend
 mastodon.se||Alt-right, hateful content||Suspend
 moe.cachapa.xyz||Extremely bad moderation||Suspend
 shrine.moe||Not enough rules||Suspend
@@ -31,7 +31,9 @@ spinster.xyz||Hateful content||Suspend
 truthsocial.com||Anti-LGBTQIA+ Community, hateful content||Trump's instance - therefore strongly biased||Suspend
 wolfgirl.bar||No publicly visible rules||Suspend
 yggdrasil.social||Anti-LGBTQIA+ Community, hateful content||Their rule 1: No LGBT||Suspend
-refusal.||Supporting sexual abuse, hateful content||Pedophilia, Zoophilia, slurs | Known domains: refusal.biz refusal.llc||Suspend
+refusal.*||Supporting sexual abuse, hateful content||Pedophilia, Zoophilia, slurs | Known domains: refusal.biz refusal.llc||Suspend
 mirr0r.city||Supporting sexual abuse, hateful content||Admin (@grumpy) is a self-proclaimed pedophile, lots of slurs used on the instance||Suspend
 pawoo.net||Supporting sexual abuse||Pedophilia||Suspend
 youjo.love||Openly supports pedophilia||Suspend
+rage.love||Harassment, Transphobia||Very commonly blocked, but unverified||Suspend
+myasstodon.xyz||Racism and harassment||Very commonly blocked (including by large instances), but unverified||Suspend
