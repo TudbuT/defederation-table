@@ -1,7 +1,7 @@
-# fediblock.directory
+# defederate.me
 
 This repo contains the files to create a table like the one seen on 
-https://fediblock.directory/#blocklist.
+https://defederate.me/#blocklist.
 
 ## Usage
 
@@ -23,4 +23,4 @@ Converting a stupid file (DBSV) to a smart file (HTML + JS).
 
 ## Can I use it?
 
-Yes, but you must credit us very visibly.
+Yes, but it must be according to AGPL.
