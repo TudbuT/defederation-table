@@ -1,7 +1,7 @@
-# defederate.me
+# defederation-table
 
-This repo contains the files to create a table like the one seen on 
-https://defederate.me/#blocklist.
+This repo contains the files to create a table with click-to-copy 
+functionality, intended for fediverse blocklists.
 
 ## Usage
 
